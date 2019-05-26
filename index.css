@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;    
+}
+
+#body-container {
+    background-color: navy;
+    overflow-y: hidden;
+    
+    padding-right: 2px;
+    padding-left: 8px;
+
+    max-height: 0; 
+    transition: max-height 400ms linear;
+}
+
+#body-container.expanded {
+    max-height: 200px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+} 
+
+
+.body {
+    background-color: aquamarine;
+    /* height: 120px; */
+    width: 500px;
+    padding: 8px;
+}
